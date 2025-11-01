@@ -9,5 +9,7 @@
     tabline.nvimBufferline.enable = true; # better buffer tabs with numbers
 
     treesitter.enable = true; # treesitter highlighting, etc
+
+    telescope.enable = true;
   };
 }

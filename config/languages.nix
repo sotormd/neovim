@@ -14,7 +14,6 @@
     # markdown setup
     markdown.enable = true;
     markdown.lsp.server = "marksman"; # markdown lsp
-    markdown.format.type = "deno_fmt"; # uses deno for markdown formatting
     markdown.extensions.render-markdown-nvim.enable = true; # preview markdown files
 
     # go configuration

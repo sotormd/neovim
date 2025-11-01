@@ -20,11 +20,11 @@ Replaces my older
 | Language     | LSP             | Formatter        |
 | ------------ | --------------- | ---------------- |
 | **Nix**      | `nixd`          | `nixfmt`         |
-| **Markdown** | `marksman`      | `deno_fmt`       |
 | **Go**       | `gopls`         | `gofmt`          |
 | **Python**   | `basedpyright`  | `black`, `isort` |
 | **Rust**     | `rust-analyzer` | `rustfmt`        |
 | **Haskell**  | `hls`           | -                |
+| **Markdown** | `marksman`      | -                |
 
 ### Plugins
 
@@ -54,6 +54,7 @@ Replaces my older
 | `precognition.nvim`     | Predictive motion key hints                         |
 | `render-markdown-nvim`  | Markdown previews                                   |
 | `smart-splits.nvim`     | Smart window resizing and navigation                |
+| `telescope`             | Fuzzy finder                                        |
 | `toggleterm.nvim`       | Floating terminal manager                           |
 | `which-key.nvim`        | Keybinding popup display                            |
 
