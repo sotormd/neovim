@@ -4,7 +4,7 @@ A modular **Neovim configuration flake** built with [nvf](https://github.com/not
 
 Replaces my older nixvim [configuration](https://github.com/sotormd/neovim-nixvim)
 
-[Screenshot](./screenshots/neovim.png)
+![Screenshot](./screenshots/neovim.png)
 
 ## Contents
 
