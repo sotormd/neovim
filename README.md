@@ -4,16 +4,12 @@ A modular **Neovim configuration flake** built with [nvf](https://github.com/not
 
 Replaces my older nixvim [configuration](https://github.com/sotormd/neovim-nixvim)
 
-![Screenshot](./screenshots/neovim.png)
-
----
+[Screenshot](./screenshots/neovim.png)
 
 ## Contents
 
 1. [Features](#features)
 2. [Usage](#usage)
-
----
 
 ## Features
 
@@ -29,8 +25,6 @@ Replaces my older nixvim [configuration](https://github.com/sotormd/neovim-nixvi
 * **Telescope** fuzzy finder and **WhichKey** keybinding hints
 * **Noice** + **Fidget** for UI polish and status notifications
 
----
-
 ### Language Support
 
 | Language     | LSP             | Formatter        |
@@ -45,8 +39,6 @@ Replaces my older nixvim [configuration](https://github.com/sotormd/neovim-nixvi
 
 Additional diagnostics and Treesitter parsing are enabled for all supported languages.
 
----
-
 ### UI & Visuals
 
 | Component              | Plugin                                  |
@@ -57,8 +49,6 @@ Additional diagnostics and Treesitter parsing are enabled for all supported lang
 | Notifications          | `noice.nvim`, `fidget.nvim`             |
 | Breadcrumbs            | `navbuddy`, `illuminate`                |
 | Color Highlighting     | `colorizer.nvim`                        |
-
----
 
 ### Utility & Motion
 
@@ -74,16 +64,12 @@ Additional diagnostics and Treesitter parsing are enabled for all supported lang
 | Image Paste            | `img-clip.nvim`                              | Paste clipboard images in Markdown |
 | Terminal               | `toggleterm.nvim`                            | Integrated terminal emulator       |
 
----
-
 ### Debugging
 
 | Component | Plugin        |
 | --------- | ------------- |
 | Core      | `nvim-dap`    |
 | UI        | `nvim-dap-ui` |
-
----
 
 ## Usage
 
