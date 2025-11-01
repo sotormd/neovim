@@ -23,7 +23,13 @@
       softtabstop = 4; # number of spaces inserted when pressing tab
       wrap = false; # disable line wrapping for cleaner code layout
       swapfile = false; # disable swapfiles to avoid clutter in project directories
+      showmode = false; # mode is already shown in lualine
     };
+
+    # hide deprecation warnings
+    luaConfigPre = ''
+      vim.deprecate = function() end
+    '';
 
     # but we want tabs to be 2 not 4 for .nix files
     augroups = [

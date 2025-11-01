@@ -29,7 +29,7 @@
 
     # rust configuration
     rust.enable = true;
-    rust.crates.enable = true; # integrate crate info in completion
+    rust.crates.enable = false; # disable crate info in completion
     rust.format.type = "rustfmt"; # standard rust formatter
 
     # haskell support

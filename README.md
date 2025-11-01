@@ -49,7 +49,6 @@ Replaces my older
 | `nvim-docs-view`        | Inline documentation viewer                         |
 | `nvim-treesitter`       | Syntax tree-based highlighting and indentation      |
 | `nvim-web-devicons`     | File icons for UI components                        |
-| `noice.nvim`            | Modern command/message UI                           |
 | `nord.nvim`             | Nord theme                                          |
 | `otter.nvim`            | Embedded language support (Markdown, etc.)          |
 | `precognition.nvim`     | Predictive motion key hints                         |
@@ -83,6 +82,7 @@ Replaces my older
 | `lspSignature.nvim`       | Floating function signature hints                     |
 | `modes.nvim`              | Animated mode indicator                               |
 | `navbuddy.nvim`           | Floating symbol navigation                            |
+| `noice.nvim`              | Modern command/message UI                             |
 | `nvim-biscuits`           | Context hints near closing brackets                   |
 | `nvim-cmp`                | Traditional completion engine (replaced by blink-cmp) |
 | `nvim-cursorline`         | Cursorline plugin (redundant)                         |
