@@ -1,0 +1,7 @@
+# keybind discovery helpers and cheat sheets
+{
+  config.vim.binds = {
+    whichKey.enable = true; # popup to display available keymaps
+    cheatsheet.enable = true; # visual reference for shortcuts
+  };
+}
