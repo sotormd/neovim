@@ -3,6 +3,24 @@
     viAlias = true;
     vimAlias = true;
 
+    clipboard = {
+      enable = true;
+      providers.wl-copy.enable = true;
+      registers = "unnamedplus";
+    };
+
+    options = {
+      autoindent = false;
+      number = true;
+      relativenumber = true;
+      cursorline = true;
+      tabstop = 4;
+      shiftwidth = 4;
+      softtabstop = 4;
+      wrap = false;
+      swapfile = false;
+    };
+
     lsp = {
       enable = true;
       formatOnSave = true;
@@ -10,7 +28,7 @@
       trouble.enable = true;
       otter-nvim.enable = true;
       nvim-docs-view.enable = true;
-      
+
       lspkind.enable = false;
       lspsaga.enable = false;
       lspSignature.enable = false;
@@ -35,11 +53,11 @@
       markdown.enable = true;
       markdown.lsp.server = "marksman";
       markdown.format.type = "deno_fmt";
-      
+
       go.enable = true;
       go.lsp.server = "gopls";
       go.format.type = "gofmt";
-      
+
       python.enable = true;
       python.lsp.server = "basedpyright";
       python.format.type = "black-and-isort";
@@ -149,7 +167,7 @@
       smart-splits.enable = true;
       undotree.enable = true;
       nvim-biscuits.enable = true;
-      
+
       ccc.enable = false;
       vim-wakatime.enable = false;
       yanky-nvim.enable = false;
@@ -188,7 +206,10 @@
           nix = "110";
           ruby = "120";
           java = "130";
-          go = ["90" "130"];
+          go = [
+            "90"
+            "130"
+          ];
         };
       };
       fastaction.enable = true;
