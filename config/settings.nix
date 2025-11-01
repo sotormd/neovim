@@ -36,8 +36,6 @@
       markdown.lsp.server = "marksman";
       markdown.format.type = "deno_fmt";
       
-      bash.enable = true;
-      
       go.enable = true;
       go.lsp.server = "gopls";
       go.format.type = "gofmt";
@@ -52,6 +50,7 @@
 
       haskell.enable = true;
 
+      bash.enable = false;
       clang.enable = false;
       css.enable = false;
       html.enable = false;

@@ -31,7 +31,6 @@ Replaces my older nixvim [configuration](https://github.com/sotormd/neovim-nixvi
 | ------------ | --------------- | ---------------- |
 | **Nix**      | `nixd`          | `nixfmt`         |
 | **Markdown** | `marksman`      | `deno_fmt`       |
-| **Bash**     | builtin         | -                |
 | **Go**       | `gopls`         | `gofmt`          |
 | **Python**   | `basedpyright`  | `black`, `isort` |
 | **Rust**     | `rust-analyzer` | `rustfmt`        |
