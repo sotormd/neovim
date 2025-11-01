@@ -24,5 +24,24 @@
       wrap = false; # disable line wrapping for cleaner code layout
       swapfile = false; # disable swapfiles to avoid clutter in project directories
     };
+
+    # but we want tabs to be 2 not 4 for .nix files
+    augroups = [
+      {
+        name = "NixIndent";
+        clear = true;
+        enable = true;
+      }
+    ];
+
+    autocmds = [
+      {
+        event = [ "FileType" ];
+        pattern = [ "nix" ];
+        group = "NixIndent";
+        desc = "Use 2-space indentation for nix files";
+        command = "setlocal tabstop=2 shiftwidth=2 softtabstop=2";
+      }
+    ];
   };
 }
