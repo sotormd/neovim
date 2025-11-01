@@ -7,7 +7,7 @@
     ./languages.nix
     ./visuals.nix
     ./ui.nix
-    ./statusline.nix
+    ./line.nix
     ./filetree.nix
     ./autocomplete.nix
     ./binds.nix

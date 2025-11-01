@@ -7,7 +7,6 @@
 
       # visual helpers and diagnostic tools
       lightbulb.enable = true; # show a lightbulb when a code action is available
-      trouble.enable = true; # diagnostic panel for errors/warnings
       otter-nvim.enable = true; # support for embedded languages (markdown, etc.)
       nvim-docs-view.enable = true; # show inline documentation for symbols
 
@@ -15,6 +14,7 @@
       lspkind.enable = false; # disable icon completion display
       lspsaga.enable = false; # disable extra ui layer for lsp popups
       lspSignature.enable = false; # disable floating signature hints
+      trouble.enable = false; # disable diagnostic panel for errors/warnings
     };
 
     # debugger setup

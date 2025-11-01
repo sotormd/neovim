@@ -2,6 +2,6 @@
 {
   config.vim.binds = {
     whichKey.enable = true; # popup to display available keymaps
-    cheatsheet.enable = true; # visual reference for shortcuts
+    cheatsheet.enable = false; # disable visual reference for shortcuts
   };
 }

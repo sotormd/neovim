@@ -1,31 +1,31 @@
 # misc utilities and motion plugins
 {
   config.vim.utility = {
-    diffview-nvim.enable = true; # visual git diff viewer
-    icon-picker.enable = true; # choose icons easily
-    surround.enable = true; # change surrounding chars like quotes/brackets
-    leetcode-nvim.enable = false; # disable coding challenge plugin
     multicursors.enable = true; # multi-cursor editing support
     smart-splits.enable = true; # smooth window resizing and navigation
-    undotree.enable = true; # visualize undo history
-    nvim-biscuits.enable = true; # show context hints near closing brackets
 
     # disable non-essential utilities for performance
     ccc.enable = false; # disable color picker
     vim-wakatime.enable = false; # disable wakatime tracking
     yanky-nvim.enable = false; # disable yank history
+    diffview-nvim.enable = false; # disbale visual git diff viewer
+    nvim-biscuits.enable = false; # disable show context hints near closing brackets
+    undotree.enable = false; # disable visualize undo history
+    leetcode-nvim.enable = false; # disable coding challenge plugin
+    icon-picker.enable = false; # disable choose icons easily
+    surround.enable = false; # disable change surrounding chars like quotes/brackets
 
     # motion-related plugins
     motion = {
-      hop.enable = true; # jump to word/char using hints
-      leap.enable = true; # fast motion across lines
+      hop.enable = false; # disable jump to word/char using hints
+      leap.enable = false; # disable fast motion across lines
       precognition.enable = true; # show key hints before executing motion
     };
 
     # image-related functionality
     images = {
       image-nvim.enable = false; # disable image preview in buffers
-      img-clip.enable = true; # enable clipboard image paste support
+      img-clip.enable = false; # enable clipboard image paste support
     };
   };
 
