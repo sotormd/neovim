@@ -19,7 +19,7 @@
     motion = {
       hop.enable = false; # disable jump to word/char using hints
       leap.enable = false; # disable fast motion across lines
-      precognition.enable = true; # show key hints before executing motion
+      precognition.enable = false; # disable key hints before executing motion
     };
 
     # image-related functionality

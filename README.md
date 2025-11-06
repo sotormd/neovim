@@ -34,7 +34,6 @@ Replaces my older
 | `cinnamon.nvim`         | Smooth scrolling                                    |
 | `comment.nvim`          | Comment toggling for all filetypes                  |
 | `fastaction.nvim`       | Quick LSP/refactor action popups                    |
-| `fidget.nvim`           | LSP progress indicator                              |
 | `illuminate.nvim`       | Highlight other uses of word under cursor           |
 | `indent-blankline.nvim` | Indentation guides                                  |
 | `nvim-lightbulb`        | Show a lightbulb when a code action is available    |
@@ -51,7 +50,6 @@ Replaces my older
 | `nvim-web-devicons`     | File icons for UI components                        |
 | `nord.nvim`             | Nord theme                                          |
 | `otter.nvim`            | Embedded language support (Markdown, etc.)          |
-| `precognition.nvim`     | Predictive motion key hints                         |
 | `render-markdown-nvim`  | Markdown previews                                   |
 | `smart-splits.nvim`     | Smart window resizing and navigation                |
 | `telescope`             | Fuzzy finder                                        |
@@ -70,6 +68,7 @@ Replaces my older
 | `cheatsheet.nvim`         | Visual reference for keymaps                          |
 | `colorizer.nvim`          | Inline color previews                                 |
 | `diffview.nvim`           | Visual Git diff viewer                                |
+| `fidget.nvim`             | LSP progress indicator                                |
 | `highlight-undo`          | Highlight changes after undo                          |
 | `hop.nvim`                | Motion navigation using hints                         |
 | `icon-picker.nvim`        | Icon selection tool                                   |
@@ -88,6 +87,7 @@ Replaces my older
 | `nvim-cmp`                | Traditional completion engine (replaced by blink-cmp) |
 | `nvim-cursorline`         | Cursorline plugin (redundant)                         |
 | `nvim-scrollbar`          | Minimal scrollbar                                     |
+| `precognition.nvim`       | Predictive motion key hints                           |
 | `smartcolumn.nvim`        | Custom vertical guideline configuration               |
 | `surround.nvim`           | Edit surrounding characters easily                    |
 | `trouble.nvim`            | Diagnostics list and panel                            |
