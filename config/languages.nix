@@ -9,6 +9,7 @@
     # nix configuration
     nix.enable = true;
     nix.lsp.server = "nixd"; # fast and feature-complete nix lsp
+    nix.format.enable = true;
     nix.format.type = "nixfmt"; # standard nix formatter
 
     # markdown setup
@@ -19,16 +20,19 @@
     # go configuration
     go.enable = true;
     go.lsp.server = "gopls"; # official go language server
+    go.format.enable = true;
     go.format.type = "gofmt"; # go formatter
 
     # python configuration
     python.enable = true;
     python.lsp.server = "basedpyright"; # lightweight pyright fork
+    python.format.enable = true;
     python.format.type = "black-and-isort"; # black for formatting + isort for imports
 
     # rust configuration
     rust.enable = true;
     rust.crates.enable = false; # disable crate info in completion
+    rust.format.enable = true;
     rust.format.type = "rustfmt"; # standard rust formatter
 
     # haskell support
