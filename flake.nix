@@ -5,12 +5,14 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nvf.url = "github:notashelf/nvf";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    colors.url = "github:sotormd/colors";
   };
 
   outputs =
     {
       flake-parts,
       nvf,
+      colors,
       ...
     }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
@@ -25,6 +27,7 @@
           packages.default =
             (nvf.lib.neovimConfiguration {
               inherit pkgs;
+              extraSpecialArgs = { inherit (colors.lib) colors; };
               modules = [ ./config ];
             }).neovim;
         };
