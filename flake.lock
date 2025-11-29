@@ -2,11 +2,11 @@
   "nodes": {
     "colors": {
       "locked": {
-        "lastModified": 1764305057,
-        "narHash": "sha256-bx+yF0IwmqKIFBr4i6YHcs29Vw3okmvSJBvASIwYLig=",
+        "lastModified": 1764391449,
+        "narHash": "sha256-WEpS0msQoY81WnmIP2DRyiM7ZGdliBSC4UM3INHYQLU=",
         "owner": "sotormd",
         "repo": "colors",
-        "rev": "1da913ca454a268cf3fa019c892000a79c0437bc",
+        "rev": "363f5d3f96b6418ad6c64c9514b4d8ca49536249",
         "type": "github"
       },
       "original": {
