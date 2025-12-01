@@ -5,7 +5,7 @@
   config.vim = {
     statusline.lualine = {
       enable = true; # enable modern statusline
-      theme = colors.neovim.name; # match overall color theme
+      theme = colors.neovim.lualine; # match overall color theme
     };
 
     tabline.nvimBufferline.enable = true; # better buffer tabs with numbers
