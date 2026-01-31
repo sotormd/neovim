@@ -8,32 +8,32 @@
 
     # nix configuration
     nix.enable = true;
-    nix.lsp.server = "nixd"; # fast and feature-complete nix lsp
+    nix.lsp.servers = [ "nixd" ]; # fast and feature-complete nix lsp
     nix.format.enable = true;
-    nix.format.type = "nixfmt"; # standard nix formatter
+    nix.format.type = [ "nixfmt" ]; # standard nix formatter
 
     # markdown setup
     markdown.enable = true;
-    markdown.lsp.server = "marksman"; # markdown lsp
+    markdown.lsp.servers = [ "marksman" ]; # markdown lsp
     markdown.extensions.render-markdown-nvim.enable = true; # preview markdown files
 
     # go configuration
     go.enable = true;
-    go.lsp.server = "gopls"; # official go language server
+    go.lsp.servers = [ "gopls" ]; # official go language server
     go.format.enable = true;
-    go.format.type = "gofmt"; # go formatter
+    go.format.type = [ "gofmt" ]; # go formatter
 
     # python configuration
     python.enable = true;
-    python.lsp.server = "basedpyright"; # lightweight pyright fork
+    python.lsp.servers = [ "basedpyright" ]; # lightweight pyright fork
     python.format.enable = true;
-    python.format.type = "black-and-isort"; # black for formatting + isort for imports
+    python.format.type = [ "black-and-isort" ]; # black for formatting + isort for imports
 
     # rust configuration
     rust.enable = true;
     rust.crates.enable = false; # disable crate info in completion
     rust.format.enable = true;
-    rust.format.type = "rustfmt"; # standard rust formatter
+    rust.format.type = [ "rustfmt" ]; # standard rust formatter
 
     # haskell support
     haskell.enable = true;
