@@ -27,11 +27,14 @@
     python.enable = true;
     python.lsp.servers = [ "basedpyright" ]; # lightweight pyright fork
     python.format.enable = true;
-    python.format.type = [ "black-and-isort" ]; # black for formatting + isort for imports
+    python.format.type = [
+      "black"
+      "isort"
+    ]; # black for formatting + isort for imports
 
     # rust configuration
     rust.enable = true;
-    rust.crates.enable = false; # disable crate info in completion
+    rust.extensions.crates-nvim.enable = false; # disable crate info in completion
     rust.format.enable = true;
     rust.format.type = [ "rustfmt" ]; # standard rust formatter
 
