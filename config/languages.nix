@@ -49,7 +49,7 @@
     sql.enable = false;
     java.enable = false;
     kotlin.enable = false;
-    ts.enable = false;
+    typescript.enable = false;
     lua.enable = false;
     zig.enable = false;
     typst.enable = false;
@@ -67,7 +67,6 @@
     elixir.enable = false;
     ruby.enable = false;
     fsharp.enable = false;
-    tailwind.enable = false;
     svelte.enable = false;
     nim.enable = false;
   };
