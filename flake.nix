@@ -4,33 +4,22 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nvf.url = "github:notashelf/nvf";
-    nvf.inputs.nixpkgs.follows = "nixpkgs";
     flake-parts.url = "github:hercules-ci/flake-parts";
     colors.url = "github:sotormd/colors";
   };
 
-  outputs =
-    {
-      flake-parts,
-      nvf,
-      colors,
-      ...
-    }@inputs:
-    flake-parts.lib.mkFlake { inherit inputs; } {
-      systems = [
-        "x86_64-linux"
-        "aarch64-linux"
-      ];
-
-      perSystem =
-        { pkgs, ... }:
-        {
-          packages.default =
-            (nvf.lib.neovimConfiguration {
-              inherit pkgs;
-              extraSpecialArgs = { inherit (colors.lib) colors; };
-              modules = [ ./config ];
-            }).neovim;
-        };
-    };
+  outputs = inputs: {
+    packages.x86_64-linux.default =
+      (inputs.nvf.lib.neovimConfiguration {
+        pkgs = import inputs.nixpkgs { system = "x86_64-linux"; };
+        extraSpecialArgs = { inherit (inputs.colors.lib) colors; };
+        modules = [ ./config ];
+      }).neovim;
+    packages.aarch64-linux.default =
+      (inputs.nvf.lib.neovimConfiguration {
+        pkgs = import inputs.nixpkgs { system = "aarch64-linux"; };
+        extraSpecialArgs = { inherit (inputs.colors.lib) colors; };
+        modules = [ ./config ];
+      }).neovim;
+  };
 }
