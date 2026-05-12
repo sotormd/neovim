@@ -1,5 +1,5 @@
 {
-  config.vim.langauges.go = {
+  config.vim.languages.go = {
     enable = true;
     lsp.servers = [ "gopls" ];
     format = {
