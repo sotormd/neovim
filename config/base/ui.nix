@@ -9,16 +9,7 @@
       transparent = false; # disable transparency for better contrast
     };
 
-    filetree.neo-tree = {
-      enable = true;
-      setupOpts = {
-        enable_diagnostics = true;
-        enable_git_status = true;
-        enable_modified_markers = true;
-        enable_opened_markers = true;
-        enable_refresh_on_write = true;
-      };
-    };
+    filetree.neo-tree.enable = true;
     luaConfigPost = ''
       vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
     '';
