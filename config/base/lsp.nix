@@ -6,12 +6,12 @@
         friendly-snippets.enable = true;
         mappings = {
           close = "<C-e>";
-          complete = "<C-S-Space>";
-          confirm = "<C-Space>";
+          complete = "<C-Space>";
+          confirm = "<CR>";
           next = "<Tab>";
           previous = "<S-Tab>";
-          scrollDocsDown = "<C-f>";
-          scrollDocsUp = "<C-d>";
+          scrollDocsDown = "<C-d>";
+          scrollDocsUp = "<C-u>";
         };
         setupOpts = {
           completion = {
