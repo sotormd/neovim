@@ -21,6 +21,7 @@
       wrap = false;
       swapfile = false;
       showmode = false;
+      shortmess = "I";
     };
 
     luaConfigPre = ''

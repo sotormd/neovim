@@ -19,8 +19,6 @@
       theme = colors.neovim.lualine or colors.neovim.name;
     };
 
-    tabline.nvimBufferline.enable = true;
-
     ui.borders.enable = true;
 
     utility.smart-splits.enable = true;
