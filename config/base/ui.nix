@@ -1,10 +1,9 @@
-{ colors, ... }:
-
 {
   config.vim = {
 
     theme = {
-      inherit (colors.neovim) name style;
+      name = "nord";
+      style = "dark";
       enable = true; # enable theme management
       transparent = false; # disable transparency for better contrast
     };
@@ -16,7 +15,7 @@
 
     statusline.lualine = {
       enable = true;
-      theme = colors.neovim.lualine or colors.neovim.name;
+      theme = "nord";
     };
 
     ui.borders.enable = true;
