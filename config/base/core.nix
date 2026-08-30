@@ -2,7 +2,7 @@
   config.vim = {
 
     viAlias = true;
-    vimAlias = true;
+    vimAlias = false;
 
     clipboard = {
       enable = true;
