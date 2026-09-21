@@ -22,6 +22,7 @@
       swapfile = false;
       showmode = false;
       shortmess = "I";
+      mouse = "";
     };
 
     luaConfigPre = ''
