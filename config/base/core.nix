@@ -1,7 +1,7 @@
 {
   config.vim = {
 
-    viAlias = true;
+    viAlias = false;
     vimAlias = false;
 
     clipboard = {
