@@ -2,8 +2,7 @@
 
 Neovim configuration, using [nvf](https://github.com/notashelf/nvf).
 
-Replaces my older
-[nixvim configuration](https://github.com/sotormd/neovim-nixvim).
+Replaces my older [nixvim configuration](https://github.com/sotormd/neovim-nixvim).
 
 # Usage
 
